@@ -108,6 +108,22 @@ int main(void)
 
 
 
+  //  lcdInit(&hi2c1, (uint8_t)0x27, (uint8_t)2, (uint8_t)10);
+
+ // lcdInit(&hi2c1, 0x27, 2, 6);
+
+      // Print text and home position 0,0
+  // lcdPrintStr((uint8_t*)"Hello,", 6);
+
+      // Set cursor at zero position of line 2
+//      lcdSetCursorPosition(0, 1);
+
+      // Print text at cursor position
+//      lcdPrintStr((uint8_t*)"World!", 6);
+
+
+
+
   /* USER CODE END 2 */
 
   /* Init scheduler */

@@ -1,4 +1,4 @@
-C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE - LCD- PWM - ADC/STM32Cube_FW_WL_V1.2.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node_FreeRTOS/Core/Src/i2c.c:31:6:MX_I2C1_Init	8	static
-C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE - LCD- PWM - ADC/STM32Cube_FW_WL_V1.2.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node_FreeRTOS/Core/Src/i2c.c:74:6:MX_I2C2_Init	8	static
-C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE - LCD- PWM - ADC/STM32Cube_FW_WL_V1.2.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node_FreeRTOS/Core/Src/i2c.c:117:6:HAL_I2C_MspInit	104	static
-C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE - LCD- PWM - ADC/STM32Cube_FW_WL_V1.2.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node_FreeRTOS/Core/Src/i2c.c:190:6:HAL_I2C_MspDeInit	8	static
+C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE - LCD- PWM - ADC/STM32Cube_FW_WL_V1.2.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node_FreeRTOS/Core/Src/i2c.c:33:6:MX_I2C1_Init	8	static
+C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE - LCD- PWM - ADC/STM32Cube_FW_WL_V1.2.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node_FreeRTOS/Core/Src/i2c.c:76:6:MX_I2C2_Init	8	static
+C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE - LCD- PWM - ADC/STM32Cube_FW_WL_V1.2.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node_FreeRTOS/Core/Src/i2c.c:119:6:HAL_I2C_MspInit	112	static
+C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE - LCD- PWM - ADC/STM32Cube_FW_WL_V1.2.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node_FreeRTOS/Core/Src/i2c.c:246:6:HAL_I2C_MspDeInit	16	static

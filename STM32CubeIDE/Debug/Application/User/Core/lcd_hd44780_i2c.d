@@ -1,5 +1,5 @@
-Application/User/Core/app_freertos.o: \
- C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC/STM32Cube_FW_WL_V1.2.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node_FreeRTOS/Core/Src/app_freertos.c \
+Application/User/Core/lcd_hd44780_i2c.o: \
+ ../Application/User/Core/lcd_hd44780_i2c.c \
  ../../../../../../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../../Core/Inc/FreeRTOSConfig.h \
  ../../../../../../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
@@ -9,7 +9,7 @@ Application/User/Core/app_freertos.o: \
  ../../../../../../../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h \
  ../../../../../../../Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
  ../../../../../../../Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
- ../../Core/Inc/main.h \
+ ../../Core/Inc/lcd_hd44780_i2c.h \
  ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal.h \
  ../../Core/Inc/stm32wlxx_hal_conf.h \
  ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_dma.h \
@@ -53,18 +53,7 @@ Application/User/Core/app_freertos.o: \
  ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_tim_ex.h \
  ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_uart.h \
  ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_uart_ex.h \
- ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_system.h \
- ../../../../../../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h \
- ../../../../../../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h \
- ../../LoRaWAN/App/app_lorawan.h \
- ../../../../../../../Utilities/timer/stm32_timer.h \
- ../../../../../../../Drivers/CMSIS/Include/cmsis_compiler.h \
- ../../Core/Inc/utilities_conf.h \
- ../../../../../../../Utilities/misc/stm32_mem.h \
- ../../../../../../../Utilities/misc/stm32_tiny_vsnprintf.h \
- ../../../../../../../Utilities/lpm/tiny_lpm/stm32_lpm.h \
- ../../Core/Inc/cargador_coche.h ../../Core/Inc/main.h \
- ../../Core/Inc/lcd_hd44780_i2c.h ../../Core/Inc/i2c.h
+ ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_system.h
 ../../../../../../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
 ../../Core/Inc/FreeRTOSConfig.h:
 ../../../../../../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h:
@@ -74,7 +63,7 @@ Application/User/Core/app_freertos.o: \
 ../../../../../../../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h:
 ../../../../../../../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:
 ../../../../../../../Middlewares/Third_Party/FreeRTOS/Source/include/list.h:
-../../Core/Inc/main.h:
+../../Core/Inc/lcd_hd44780_i2c.h:
 ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal.h:
 ../../Core/Inc/stm32wlxx_hal_conf.h:
 ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_dma.h:
@@ -119,16 +108,3 @@ Application/User/Core/app_freertos.o: \
 ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_uart.h:
 ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_uart_ex.h:
 ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_system.h:
-../../../../../../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h:
-../../../../../../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h:
-../../LoRaWAN/App/app_lorawan.h:
-../../../../../../../Utilities/timer/stm32_timer.h:
-../../../../../../../Drivers/CMSIS/Include/cmsis_compiler.h:
-../../Core/Inc/utilities_conf.h:
-../../../../../../../Utilities/misc/stm32_mem.h:
-../../../../../../../Utilities/misc/stm32_tiny_vsnprintf.h:
-../../../../../../../Utilities/lpm/tiny_lpm/stm32_lpm.h:
-../../Core/Inc/cargador_coche.h:
-../../Core/Inc/main.h:
-../../Core/Inc/lcd_hd44780_i2c.h:
-../../Core/Inc/i2c.h:
