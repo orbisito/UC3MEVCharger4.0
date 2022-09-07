@@ -1,5 +1,5 @@
 Application/User/Core/i2c.o: \
- C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC/STM32Cube_FW_WL_V1.2.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node_FreeRTOS/Core/Src/i2c.c \
+ C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC\ -\ MAXIMO/STM32Cube_FW_WL_V1.2.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node_FreeRTOS/Core/Src/i2c.c \
  ../../Core/Inc/i2c.h ../../Core/Inc/main.h \
  ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal.h \
  ../../Core/Inc/stm32wlxx_hal_conf.h \

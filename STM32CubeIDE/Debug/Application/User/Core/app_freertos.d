@@ -1,5 +1,5 @@
 Application/User/Core/app_freertos.o: \
- C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC/STM32Cube_FW_WL_V1.2.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node_FreeRTOS/Core/Src/app_freertos.c \
+ C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC\ -\ MAXIMO/STM32Cube_FW_WL_V1.2.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node_FreeRTOS/Core/Src/app_freertos.c \
  ../../../../../../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../../Core/Inc/FreeRTOSConfig.h \
  ../../../../../../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
@@ -64,7 +64,7 @@ Application/User/Core/app_freertos.o: \
  ../../../../../../../Utilities/misc/stm32_tiny_vsnprintf.h \
  ../../../../../../../Utilities/lpm/tiny_lpm/stm32_lpm.h \
  ../../Core/Inc/cargador_coche.h ../../Core/Inc/main.h \
- ../../Core/Inc/lcd_hd44780_i2c.h ../../Core/Inc/i2c.h
+ ../../Core/Inc/i2c.h
 ../../../../../../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
 ../../Core/Inc/FreeRTOSConfig.h:
 ../../../../../../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h:
@@ -130,5 +130,4 @@ Application/User/Core/app_freertos.o: \
 ../../../../../../../Utilities/lpm/tiny_lpm/stm32_lpm.h:
 ../../Core/Inc/cargador_coche.h:
 ../../Core/Inc/main.h:
-../../Core/Inc/lcd_hd44780_i2c.h:
 ../../Core/Inc/i2c.h:

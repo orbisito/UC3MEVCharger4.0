@@ -30,9 +30,10 @@
 #include "stm32_timer.h"
 #include "stm32_lpm.h"
 
-#include "cargador_coche.h" //Este es mío de pruebas
-#include "lcd_hd44780_i2c.h" // para la LCD
+#include "cargador_coche.h" //Este es el archivo de cargador de coche
+
 #include "i2c.h"
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -71,7 +72,7 @@ const osThreadAttr_t defaultTask_attributes = {
   * @retval None
   */
 
-/* Defino un THREAD de prueba para parpadear led a la vez */
+/* Defino un THREAD para la tarea cargador del coche */
 osThreadId_t THREADHandle;
 const osThreadAttr_t THREAD_attributes = {
   .name = "THREAD",
@@ -80,18 +81,9 @@ const osThreadAttr_t THREAD_attributes = {
 };
 
 
-/* Defino un THREAD para la LCD */
-osThreadId_t LCDHandle;
-const osThreadAttr_t LCD_attributes = {
-  .name = "LCD",
-  .priority = (osPriority_t) osPriorityLow,
-  .stack_size = 128 * 4
-};
 
+void Cargador_Coche();// Esta es mía del cargador de coche.
 
-
-void Cargador_Coche();// Esta es mía de prueba
-void LCD ();
 
 static void  WakeUpTimer_Cb(void *context);
 
@@ -187,9 +179,8 @@ void MX_FREERTOS_Init(void) {
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
 
-  THREADHandle = osThreadNew(Cargador_Coche, NULL, &THREAD_attributes);//Este es mi hilo para el CARGADOR DEL COCHE
+  THREADHandle = osThreadNew(Cargador_Coche, NULL, &THREAD_attributes);//Hilo para el CARGADOR DEL COCHE
 
-  THREADHandle = osThreadNew(LCD, NULL, &THREAD_attributes);// Tarea del LCD
 
   /* USER CODE END RTOS_THREADS */
 
@@ -213,32 +204,12 @@ void MX_FREERTOS_Init(void) {
 		while(1){
 
 		cargador_coche_inicio();
-
-		HAL_Delay(500); // Tarea periódica para la FSM
+		HAL_Delay(4000); // Tarea periódica para la FSM
 
 		}
+
 	}
 
-
-
-	void LCD()
-		{
-		    lcdInit(&hi2c1, (uint8_t)0x27, (uint8_t)2, (uint8_t)10);
-
-		    // Print text and home position 0,0
-		    lcdPrintStr((uint8_t*)"Hello,", 6);
-
-		    // Set cursor at zero position of line 2
-		    lcdSetCursorPosition(0, 1);
-
-		    // Print text at cursor position
-		    lcdPrintStr((uint8_t*)"World!", 6);
-
-		    for (;;) {
-		        vTaskDelay(1000);
-		    }
-
-        }
 
 
 /* USER CODE END Header_StartDefaultTask */

@@ -43,6 +43,8 @@
 /* External variables ---------------------------------------------------------*/
 /* USER CODE BEGIN EV */
 
+extern uint16_t voltaje_CP;
+
 /* USER CODE END EV */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -676,13 +678,43 @@ static void OnRxData(LmHandlerAppData_t *appData, LmHandlerRxParams_t *params)
   /* USER CODE END OnRxData_1 */
 }
 
+
+
+
+uint16_t estado_carga;
+
+
+
+
+uint16_t estado_CARGA(uint16_t voltaje_CP)
+
+{
+	if ( voltaje_CP > 50  && voltaje_CP < 1000 )
+			{
+				estado_carga = 100;
+			}
+
+	else if ( voltaje_CP > 1000  && voltaje_CP < 1900 )
+			{
+				estado_carga = 50;
+			}
+	else
+			{
+				estado_carga = 0;
+			}
+
+		return estado_carga;
+}
+
+
+
+
 static void SendTxData(void)
 {
   /* USER CODE BEGIN SendTxData_1 */
   LmHandlerErrorStatus_t status = LORAMAC_HANDLER_ERROR;
-  uint8_t batteryLevel = GetBatteryLevel();
+  //uint8_t batteryLevel = GetBatteryLevel();
 
-  uint16_t voltaje_CP =  GetLectura_CP();//es el mío
 
   sensor_t sensor_data;
   UTIL_TIMER_Time_t nextTxIn = 0;
@@ -701,19 +733,24 @@ static void SendTxData(void)
 
   EnvSensors_Read(&sensor_data);
 
-  APP_LOG(TS_ON, VLEVEL_M, "VDDA: %d\r\n", batteryLevel);
+  //APP_LOG(TS_ON, VLEVEL_M, "VDDA: %d\r\n", batteryLevel);
+  APP_LOG(TS_ON, VLEVEL_M, "Voltaje_CP: %d\r\n", voltaje_CP); // Aparece en terminal el valor CP
   APP_LOG(TS_ON, VLEVEL_M, "temp: %d\r\n", (int16_t)(sensor_data.temperature));
-  APP_LOG(TS_ON, VLEVEL_M, "CP: %d\r\n", voltaje_CP);
+
 
 
   AppData.Port = LORAWAN_USER_APP_PORT;
 
+
+
 #ifdef CAYENNE_LPP
   CayenneLppReset();
-  CayenneLppAddBarometricPressure(channel++, sensor_data.pressure);
+  CayenneLppAddBarometricPressure(channel++, estado_CARGA(voltaje_CP)); //CayenneLppAddBarometricPressure(channel++, sensor_data.pressure);
   CayenneLppAddTemperature(channel++, sensor_data.temperature);
-  CayenneLppAddRelativeHumidity(channel++, (uint16_t)(sensor_data.humidity));
+  //CayenneLppAddRelativeHumidity(channel++, (uint16_t)(sensor_data.humidity));
 
+
+  /*
   if ((LmHandlerParams.ActiveRegion != LORAMAC_REGION_US915) && (LmHandlerParams.ActiveRegion != LORAMAC_REGION_AU915)
       && (LmHandlerParams.ActiveRegion != LORAMAC_REGION_AS923))
   {
@@ -723,6 +760,9 @@ static void SendTxData(void)
 
   CayenneLppCopy(AppData.Buffer);
   AppData.BufferSize = CayenneLppGetSize();
+
+  */
+
 #else  /* not CAYENNE_LPP */
   humidity    = (uint16_t)(sensor_data.humidity * 10);            /* in %*10     */
   temperature = (int16_t)(sensor_data.temperature);
@@ -1115,4 +1155,3 @@ static void OnRestoreContextRequest(void *nvm, uint32_t nvm_size)
 
   /* USER CODE END OnRestoreContextRequest_Last */
 }
-

@@ -68,8 +68,8 @@ all: main-build
 main-build: LoRaWAN_End_Node_FreeRTOS.elf secondary-outputs
 
 # Tool invocations
-LoRaWAN_End_Node_FreeRTOS.elf LoRaWAN_End_Node_FreeRTOS.map: $(OBJS) $(USER_OBJS) C:\Users\Jesus\Documents\V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC\STM32Cube_FW_WL_V1.2.0\Projects\NUCLEO-WL55JC\Applications\LoRaWAN\LoRaWAN_End_Node_FreeRTOS\STM32CubeIDE\STM32WL55JCIX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "LoRaWAN_End_Node_FreeRTOS.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\Jesus\Documents\V1.2.0_CARGADOR_COCHE - LCD- PWM - ADC\STM32Cube_FW_WL_V1.2.0\Projects\NUCLEO-WL55JC\Applications\LoRaWAN\LoRaWAN_End_Node_FreeRTOS\STM32CubeIDE\STM32WL55JCIX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LoRaWAN_End_Node_FreeRTOS.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+LoRaWAN_End_Node_FreeRTOS.elf LoRaWAN_End_Node_FreeRTOS.map: $(OBJS) $(USER_OBJS) C:\Users\Jesus\Documents\V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC\ -\ MAXIMO\STM32Cube_FW_WL_V1.2.0\Projects\NUCLEO-WL55JC\Applications\LoRaWAN\LoRaWAN_End_Node_FreeRTOS\STM32CubeIDE\STM32WL55JCIX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "LoRaWAN_End_Node_FreeRTOS.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\Jesus\Documents\V1.2.0_CARGADOR_COCHE - LCD- PWM - ADC - MAXIMO\STM32Cube_FW_WL_V1.2.0\Projects\NUCLEO-WL55JC\Applications\LoRaWAN\LoRaWAN_End_Node_FreeRTOS\STM32CubeIDE\STM32WL55JCIX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LoRaWAN_End_Node_FreeRTOS.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

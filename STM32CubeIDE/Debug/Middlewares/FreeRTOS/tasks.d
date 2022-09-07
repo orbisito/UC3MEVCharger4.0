@@ -1,5 +1,5 @@
 Middlewares/FreeRTOS/tasks.o: \
- C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC/STM32Cube_FW_WL_V1.2.0/Middlewares/Third_Party/FreeRTOS/Source/tasks.c \
+ C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC\ -\ MAXIMO/STM32Cube_FW_WL_V1.2.0/Middlewares/Third_Party/FreeRTOS/Source/tasks.c \
  ../../../../../../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../../Core/Inc/FreeRTOSConfig.h \
  ../../../../../../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \

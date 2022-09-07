@@ -1,2 +1,2 @@
-../Application/User/Core/cargador_coche.c:51:6:decodifica_estado	0	static
-../Application/User/Core/cargador_coche.c:91:6:cargador_coche_inicio	8	static
+../Application/User/Core/cargador_coche.c:50:6:decodifica_estado	0	static
+../Application/User/Core/cargador_coche.c:88:6:cargador_coche_inicio	8	static

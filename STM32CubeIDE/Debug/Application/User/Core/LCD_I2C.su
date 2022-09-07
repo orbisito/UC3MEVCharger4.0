@@ -1,0 +1,5 @@
+../Application/User/Core/LCD_I2C.c:30:6:LCD_Command	24	static
+../Application/User/Core/LCD_I2C.c:45:6:LCD_Data	24	static
+../Application/User/Core/LCD_I2C.c:59:6:LCD_Init	8	static
+../Application/User/Core/LCD_I2C.c:83:6:LCD_MoveCursor	8	static
+../Application/User/Core/LCD_I2C.c:104:6:escribir_LCD	16	static

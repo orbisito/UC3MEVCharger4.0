@@ -1,5 +1,5 @@
 Middlewares/SubGHz_Phy/radio_driver.o: \
- C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC/STM32Cube_FW_WL_V1.2.0/Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.c \
+ C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC\ -\ MAXIMO/STM32Cube_FW_WL_V1.2.0/Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.c \
  ../../LoRaWAN/Target/radio_conf.h ../../Core/Inc/platform.h \
  ../../../../../../../Drivers/CMSIS/Device/ST/STM32WLxx/Include/stm32wlxx.h \
  ../../../../../../../Drivers/CMSIS/Device/ST/STM32WLxx/Include/stm32wl55xx.h \
@@ -60,7 +60,7 @@ Middlewares/SubGHz_Phy/radio_driver.o: \
  ../../LoRaWAN/Target/radio_board_if.h ../../Core/Inc/utilities_def.h \
  ../../Core/Inc/sys_debug.h ../../Core/Inc/sys_conf.h \
  ../../Core/Inc/platform.h \
- C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC/STM32Cube_FW_WL_V1.2.0/Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.h \
+ C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC\ -\ MAXIMO/STM32Cube_FW_WL_V1.2.0/Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.h \
  ../../LoRaWAN/Target/mw_log_conf.h
 ../../LoRaWAN/Target/radio_conf.h:
 ../../Core/Inc/platform.h:
@@ -126,5 +126,5 @@ Middlewares/SubGHz_Phy/radio_driver.o: \
 ../../Core/Inc/sys_debug.h:
 ../../Core/Inc/sys_conf.h:
 ../../Core/Inc/platform.h:
-C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC/STM32Cube_FW_WL_V1.2.0/Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.h:
+C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC\ -\ MAXIMO/STM32Cube_FW_WL_V1.2.0/Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.h:
 ../../LoRaWAN/Target/mw_log_conf.h:

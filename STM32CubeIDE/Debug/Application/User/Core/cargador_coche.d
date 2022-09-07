@@ -51,7 +51,8 @@ Application/User/Core/cargador_coche.o: \
  ../../../../../../../Drivers/CMSIS/Include/cmsis_compiler.h \
  ../../../../../../../Utilities/misc/stm32_mem.h \
  ../../../../../../../Utilities/misc/stm32_tiny_vsnprintf.h \
- ../../LoRaWAN/App/lora_app.h
+ ../../LoRaWAN/App/lora_app.h ../../Core/Inc/LCD_I2C.h \
+ ../../Core/Inc/sys_sensors.h
 ../../Core/Inc/cargador_coche.h:
 ../../Core/Inc/main.h:
 ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal.h:
@@ -106,3 +107,5 @@ Application/User/Core/cargador_coche.o: \
 ../../../../../../../Utilities/misc/stm32_mem.h:
 ../../../../../../../Utilities/misc/stm32_tiny_vsnprintf.h:
 ../../LoRaWAN/App/lora_app.h:
+../../Core/Inc/LCD_I2C.h:
+../../Core/Inc/sys_sensors.h:

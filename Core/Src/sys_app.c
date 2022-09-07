@@ -31,7 +31,7 @@
 #include "sys_sensors.h"
 
 /* USER CODE BEGIN Includes */
-
+//extern TIM_HandleTypeDef htim1;
 /* USER CODE END Includes */
 
 /* External variables ---------------------------------------------------------*/
@@ -219,10 +219,12 @@ void GetUniqueId(uint8_t *id)
 
   uint16_t GetLectura_CP(void)
   {
+
 	  uint16_t voltaje_CP = 0;
 
 	  voltaje_CP = (uint16_t) SYS_Lectura_CP();
 	  return voltaje_CP;
+
   }
 
   /* USER CODE END GetUniqueId_2 */

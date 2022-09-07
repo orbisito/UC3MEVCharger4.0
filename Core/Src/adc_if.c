@@ -31,6 +31,7 @@
   * @brief ADC handle
   */
 extern ADC_HandleTypeDef hadc;
+
 /* USER CODE BEGIN EV */
 
 /* USER CODE END EV */
@@ -180,15 +181,46 @@ uint16_t SYS_GetBatteryLevel(void)
 uint16_t SYS_Lectura_CP(void) // Este es mi código para leer el CP
 
 {
+
+	// Código para bucle 60 muestras y hacer la media
+
+	uint16_t voltaje_CP = 0;
+
+	uint16_t medidas[60];
+	uint16_t suma=0;
+	uint16_t media=0;
+
+	for (int i = 0; i < 60; i++){
+		medidas[i] = ADC_ReadChannels(ADC_CHANNEL_4);
+
+		suma = suma + medidas[i];
+	}
+
+
+	media=suma/60;
+	voltaje_CP = (((media* 3300)/4095)*6.20);// factor correccion 100% / 16%
+
+	return voltaje_CP; //Voltaje en mV.
+
+
+}
+
+  //Código para una sola lectura instantánea
+
+
+	/*
   uint16_t voltaje_CP = 0;
   uint16_t voltaje_leer=0;
 
   voltaje_leer = ADC_ReadChannels(ADC_CHANNEL_4);
 
-  voltaje_CP = (voltaje_leer * 3300)/4096;
+  voltaje_CP = (voltaje_leer * 3300)/4095;
+
 
   return voltaje_CP; //Voltaje en mV.
+
 }
+*/
 
 
 /* USER CODE END PrFD */

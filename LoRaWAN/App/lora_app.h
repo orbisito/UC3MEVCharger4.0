@@ -44,9 +44,9 @@ extern "C" {
 /*!
  * CAYENNE_LPP is myDevices Application server.
  */
-/*#define CAYENNE_LPP*/
+#define CAYENNE_LPP
 
-/*!
+/*
  * Defines the application data transmission duty cycle. 10s, value in [ms].
  */
 #define APP_TX_DUTYCYCLE                            10000

@@ -2,7 +2,8 @@
 /**
   ******************************************************************************
   * @file           : main.c
-  * @brief          : Main program body
+  * @author    Sergio Orbís García
+  * @brief     main del programa de cargador eléctrico de coche
   ******************************************************************************
   * @attention
   *
@@ -23,10 +24,6 @@
 #include "app_lorawan.h"
 #include "tim.h"
 #include "gpio.h"
-
-
-
-
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -94,8 +91,8 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_I2C1_Init();
-  MX_I2C2_Init();
   MX_TIM1_Init();
+
   /* USER CODE BEGIN 2 */
 
 
@@ -103,24 +100,6 @@ int main(void)
    {
      Error_Handler();
    }
-
-
-
-
-
-  //  lcdInit(&hi2c1, (uint8_t)0x27, (uint8_t)2, (uint8_t)10);
-
- // lcdInit(&hi2c1, 0x27, 2, 6);
-
-      // Print text and home position 0,0
-  // lcdPrintStr((uint8_t*)"Hello,", 6);
-
-      // Set cursor at zero position of line 2
-//      lcdSetCursorPosition(0, 1);
-
-      // Print text at cursor position
-//      lcdPrintStr((uint8_t*)"World!", 6);
-
 
 
 

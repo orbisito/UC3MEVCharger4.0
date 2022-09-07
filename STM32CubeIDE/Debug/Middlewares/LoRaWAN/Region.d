@@ -1,5 +1,5 @@
 Middlewares/LoRaWAN/Region.o: \
- C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC/STM32Cube_FW_WL_V1.2.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.c \
+ C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC\ -\ MAXIMO/STM32Cube_FW_WL_V1.2.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.c \
  ../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacInterfaces.h \
  ../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacTypes.h \
  ../../LoRaWAN/Target/timer.h \
@@ -21,13 +21,13 @@ Middlewares/LoRaWAN/Region.o: \
  ../../../../../../../Middlewares/Third_Party/LoRaWAN/Utilities/utilities.h \
  ../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/secure-element-nvm.h \
  ../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassBNvm.h \
- C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC/STM32Cube_FW_WL_V1.2.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionVersion.h \
- C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC/STM32Cube_FW_WL_V1.2.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.h \
- C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC/STM32Cube_FW_WL_V1.2.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.h \
- C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC/STM32Cube_FW_WL_V1.2.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.h \
+ C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC\ -\ MAXIMO/STM32Cube_FW_WL_V1.2.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionVersion.h \
+ C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC\ -\ MAXIMO/STM32Cube_FW_WL_V1.2.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.h \
+ C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC\ -\ MAXIMO/STM32Cube_FW_WL_V1.2.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.h \
+ C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC\ -\ MAXIMO/STM32Cube_FW_WL_V1.2.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.h \
  ../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacHeaderTypes.h \
- C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC/STM32Cube_FW_WL_V1.2.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionNvm.h \
- C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC/STM32Cube_FW_WL_V1.2.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionUS915.h
+ C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC\ -\ MAXIMO/STM32Cube_FW_WL_V1.2.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionNvm.h \
+ C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC\ -\ MAXIMO/STM32Cube_FW_WL_V1.2.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionUS915.h
 ../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacInterfaces.h:
 ../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacTypes.h:
 ../../LoRaWAN/Target/timer.h:
@@ -49,10 +49,10 @@ Middlewares/LoRaWAN/Region.o: \
 ../../../../../../../Middlewares/Third_Party/LoRaWAN/Utilities/utilities.h:
 ../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/secure-element-nvm.h:
 ../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassBNvm.h:
-C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC/STM32Cube_FW_WL_V1.2.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionVersion.h:
-C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC/STM32Cube_FW_WL_V1.2.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.h:
-C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC/STM32Cube_FW_WL_V1.2.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.h:
-C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC/STM32Cube_FW_WL_V1.2.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.h:
+C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC\ -\ MAXIMO/STM32Cube_FW_WL_V1.2.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionVersion.h:
+C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC\ -\ MAXIMO/STM32Cube_FW_WL_V1.2.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionEU868.h:
+C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC\ -\ MAXIMO/STM32Cube_FW_WL_V1.2.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.h:
+C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC\ -\ MAXIMO/STM32Cube_FW_WL_V1.2.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.h:
 ../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacHeaderTypes.h:
-C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC/STM32Cube_FW_WL_V1.2.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionNvm.h:
-C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC/STM32Cube_FW_WL_V1.2.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionUS915.h:
+C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC\ -\ MAXIMO/STM32Cube_FW_WL_V1.2.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionNvm.h:
+C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC\ -\ MAXIMO/STM32Cube_FW_WL_V1.2.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionUS915.h:

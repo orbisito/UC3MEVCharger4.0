@@ -22,6 +22,10 @@
 #include "stm32wlxx_it.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "adc_if.h"
+#include "sys_app.h"
+
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -57,6 +61,7 @@
 /* External variables --------------------------------------------------------*/
 extern RTC_HandleTypeDef hrtc;
 extern SUBGHZ_HandleTypeDef hsubghz;
+extern TIM_HandleTypeDef htim1;
 extern DMA_HandleTypeDef hdma_usart2_tx;
 extern UART_HandleTypeDef huart2;
 /* USER CODE BEGIN EV */
@@ -229,6 +234,33 @@ void EXTI9_5_IRQHandler(void)
   /* USER CODE BEGIN EXTI9_5_IRQn 1 */
 
   /* USER CODE END EXTI9_5_IRQn 1 */
+}
+
+/**
+  * @brief This function handles TIM1 Update Interrupt.
+  */
+void TIM1_UP_IRQHandler(void)
+{
+  /* USER CODE BEGIN TIM1_UP_IRQn 0 */
+
+
+ // uint16_t voltaje_CP = 0;
+
+// voltaje_CP = (uint16_t) SYS_Lectura_CP();
+  //return voltaje_CP;
+
+	//while (1){
+	//HAL_GPIO_TogglePin(GPIOB, LED2_Pin);
+    //HAL_Delay(1000);
+    //HAL_GPIO_TogglePin(GPIOB, LED2_Pin);
+   // HAL_Delay(1000);
+	//}
+
+  /* USER CODE END TIM1_UP_IRQn 0 */
+  HAL_TIM_IRQHandler(&htim1);
+  /* USER CODE BEGIN TIM1_UP_IRQn 1 */
+
+  /* USER CODE END TIM1_UP_IRQn 1 */
 }
 
 /**

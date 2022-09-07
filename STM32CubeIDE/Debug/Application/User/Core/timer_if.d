@@ -1,5 +1,5 @@
 Application/User/Core/timer_if.o: \
- C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC/STM32Cube_FW_WL_V1.2.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node_FreeRTOS/Core/Src/timer_if.c \
+ C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC\ -\ MAXIMO/STM32Cube_FW_WL_V1.2.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node_FreeRTOS/Core/Src/timer_if.c \
  ../../Core/Inc/timer_if.h \
  ../../../../../../../Utilities/timer/stm32_timer.h \
  ../../../../../../../Drivers/CMSIS/Include/cmsis_compiler.h \

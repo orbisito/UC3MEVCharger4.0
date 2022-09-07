@@ -1,5 +1,5 @@
 Application/User/Core/stm32wlxx_it.o: \
- C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC/STM32Cube_FW_WL_V1.2.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node_FreeRTOS/Core/Src/stm32wlxx_it.c \
+ C:/Users/Jesus/Documents/V1.2.0_CARGADOR_COCHE\ -\ LCD-\ PWM\ -\ ADC\ -\ MAXIMO/STM32Cube_FW_WL_V1.2.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node_FreeRTOS/Core/Src/stm32wlxx_it.c \
  ../../Core/Inc/main.h \
  ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal.h \
  ../../Core/Inc/stm32wlxx_hal_conf.h \
@@ -45,7 +45,19 @@ Application/User/Core/stm32wlxx_it.o: \
  ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_uart.h \
  ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_uart_ex.h \
  ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_system.h \
- ../../Core/Inc/stm32wlxx_it.h
+ ../../Core/Inc/stm32wlxx_it.h ../../Core/Inc/adc_if.h \
+ ../../Core/Inc/adc.h ../../Core/Inc/main.h ../../Core/Inc/platform.h \
+ ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_gpio.h \
+ ../../../../../../../Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_radio.h \
+ ../../../../../../../Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_errno.h \
+ ../../Core/Inc/stm32wlxx_nucleo_conf.h \
+ ../../../../../../../Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo.h \
+ ../../Core/Inc/sys_app.h ../../Core/Inc/sys_conf.h \
+ ../../../../../../../Utilities/trace/adv_trace/stm32_adv_trace.h \
+ ../../Core/Inc/utilities_conf.h \
+ ../../../../../../../Drivers/CMSIS/Include/cmsis_compiler.h \
+ ../../../../../../../Utilities/misc/stm32_mem.h \
+ ../../../../../../../Utilities/misc/stm32_tiny_vsnprintf.h
 ../../Core/Inc/main.h:
 ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal.h:
 ../../Core/Inc/stm32wlxx_hal_conf.h:
@@ -92,3 +104,19 @@ Application/User/Core/stm32wlxx_it.o: \
 ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_uart_ex.h:
 ../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_system.h:
 ../../Core/Inc/stm32wlxx_it.h:
+../../Core/Inc/adc_if.h:
+../../Core/Inc/adc.h:
+../../Core/Inc/main.h:
+../../Core/Inc/platform.h:
+../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_gpio.h:
+../../../../../../../Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_radio.h:
+../../../../../../../Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo_errno.h:
+../../Core/Inc/stm32wlxx_nucleo_conf.h:
+../../../../../../../Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo.h:
+../../Core/Inc/sys_app.h:
+../../Core/Inc/sys_conf.h:
+../../../../../../../Utilities/trace/adv_trace/stm32_adv_trace.h:
+../../Core/Inc/utilities_conf.h:
+../../../../../../../Drivers/CMSIS/Include/cmsis_compiler.h:
+../../../../../../../Utilities/misc/stm32_mem.h:
+../../../../../../../Utilities/misc/stm32_tiny_vsnprintf.h:

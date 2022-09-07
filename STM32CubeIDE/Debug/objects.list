@@ -1,3 +1,4 @@
+"./Application/User/Core/LCD_I2C.o"
 "./Application/User/Core/adc.o"
 "./Application/User/Core/adc_if.o"
 "./Application/User/Core/app_freertos.o"
@@ -6,7 +7,6 @@
 "./Application/User/Core/flash_if.o"
 "./Application/User/Core/gpio.o"
 "./Application/User/Core/i2c.o"
-"./Application/User/Core/lcd_hd44780_i2c.o"
 "./Application/User/Core/main.o"
 "./Application/User/Core/rtc.o"
 "./Application/User/Core/stm32_lpm_if.o"
